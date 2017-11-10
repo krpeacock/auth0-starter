@@ -1,0 +1,20 @@
+{
+  "name": "auth0-fullstack",
+  "version": "1.0.0",
+  "description": "Express + React authentication starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Peacock & Nate Waddington",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "path": "^0.12.7",
+    "slack-winston": "0.0.9",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2",
+    "winston-log-and-exit": "^1.0.6"
+  }
+}
