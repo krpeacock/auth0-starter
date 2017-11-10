@@ -8,7 +8,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'client/build')));
 
 
-app.get('api/foo', (req, res)=>{
+app.get('/api/foo', (req, res)=>{
   res.json({foo:'foo'});
 })
 
